@@ -32,4 +32,4 @@
         });
         //slider.reloadSlider();
     }
-})(jQuery); //Final do script
+})(jQuery); //End script

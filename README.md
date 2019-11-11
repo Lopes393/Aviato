@@ -1,1 +1,2 @@
 # Aviato
+<!-- Não sei qual o problema mas estou com muita dificuldade na importação do JS, tive que importao o popper separado pra dar certo, mas depois de algum tempo bagunçou tudo, dai voltei pro jeito que tava, ta rodando beleza, mas o carrocel de imagens tem que dar um Ctrl+F5 pra ele rodar automatico, já tentei de tudo, nem sei o que fazer mais-->

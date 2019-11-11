@@ -29,9 +29,9 @@
                     <div class="col-md-8">
                         <div class="user-menu">
                             <ul>
-                                <li><a href="#"><i class="fa fa-user"></i>My Account</a></li>
+                                <li><a href="/aviato/construction.html"><i class="fa fa-user"></i>My Account</a></li>
                                 <li><a href="cart.html"><i class="fa fa-user"></i>My Cart</a></li>
-                                <li><a href="#"><i class="fa fa-heart"></i>Wishlist</a></li>
+                                <li><a href="/aviato/construction.html"><i class="fa fa-heart"></i>Wishlist</a></li>
                                 <li><a href="login.html"><i class="fa fa-user"></i>Sign in</a></li>
                             </ul>
                         </div>
@@ -96,7 +96,7 @@
                             <li><a href="index.html">Home</a></li>
                             <li><a href="product.html">Products</a></li>
                             <li class="active"><a href="cart.html">Cart</a></li>
-                            <li><a href="ompany.htmlourc">Our Company</a></li>
+                            <li><a href="ourcompany.html">Our Company</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>  
@@ -129,8 +129,8 @@
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <div class="product-content-right">
-                            <div class="woocommerce">
+                        <div class="cart-content">
+                            <div class="commerce">
                                 <form method="post" action="#">
                                     <table cellspacing="0" class="shop_table cart">
                                         <thead>
@@ -177,14 +177,15 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="actions" colspan="6">
+                                                <td class="actions" colspan="7">
                                                     <div class="coupon">
                                                         <label for="coupon_code">Coupon:</label>
                                                         <input type="text" placeholder="Coupon code" value="" id="coupon_code" class="input-text" name="coupon_code">
                                                         <input type="submit" value="Apply Coupon" name="apply_coupon" class="button">
                                                     </div>
+                                                    <input type="submit" value="Update Cart" name="update_cart" class="button">
                                                 </td>
-                                                <input type="submit" value="Update Cart" name="update_cart" class="button">
+                                                
                                             </tr>
                                         </tbody>
                                     </table>
@@ -193,11 +194,183 @@
                         </div>
                     </div>
                 </div>
+                <span class="interessed-in"><h2>You may be interested in...</h2></span>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="promo-products">
+                            <table cellspacing="0" class="shop_table cart">
+                                <thead>
+                                    <tr>
+                                        <th class="product-thumbnail">&nbsp;</th>
+                                        <th class="product-name">Product</th>
+                                        <th class="product-price">Price</th>
+                                        <th class="product-shipping">Shipping</th>
+                                        <th class="product-quantity">Quantity</th>
+                                        <th class="product-subtotal">Total</th>
+                                        <th class="product-remove">&nbsp;</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="cart_item">
+                                        <td class="product-thumbnail">
+                                            <a href="#"><img width="145" height="145" alt="poster_1_up" class="shop_thumbnail" src="img/product-thumb-2.jpg"></a>
+                                        </td>
+
+                                        <td class="product-name">
+                                            <a href="#">Cellphone Apple 6S</a> 
+                                        </td>
+
+                                        <td class="product-price">
+                                            <span class="amount">$700,00</span> 
+                                        </td>
+
+                                        <td class="product-shipping">
+                                            <span class="amount">$199,00</span> 
+                                        </td>
+
+                                        <td class="product-quantity">
+                                            <div class="quantity buttons_added">
+                                                <input type="number" size="4" class="input-text qty text" title="Qty" value="1" min="0" step="1">
+                                            </div>
+                                        </td>
+
+                                        <td class="product-subtotal">
+                                            <span class="amount">$899,00</span> 
+                                        </td>
+                                        <td class="add-cart">
+                                            <div class="product_option">
+                                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="#">Add to cart</a>
+                                            </div> 
+                                        </td>
+                                    </tr>
+                                    <tr class="cart_item">
+                                        <td class="product-thumbnail">
+                                            <a href="#"><img width="145" height="145" alt="poster_1_up" class="shop_thumbnail" src="img/product-thumb-2.jpg"></a>
+                                        </td>
+
+                                        <td class="product-name">
+                                            <a href="#">Cellphone Apple 6S</a> 
+                                        </td>
+
+                                        <td class="product-price">
+                                            <span class="amount">$700,00</span> 
+                                        </td>
+
+                                        <td class="product-shipping">
+                                            <span class="amount">$199,00</span> 
+                                        </td>
+
+                                        <td class="product-quantity">
+                                            <div class="quantity buttons_added">
+                                                <input type="number" size="4" class="input-text qty text" title="Qty" value="1" min="0" step="1">
+                                            </div>
+                                        </td>
+
+                                        <td class="product-subtotal">
+                                            <span class="amount">$899,00</span> 
+                                        </td>
+                                        <td class="add-cart">
+                                            <div class="product_option">
+                                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="#">Add to cart</a>
+                                            </div> 
+                                        </td>
+                                    </tr>
+                                    <tr class="cart_item">
+                                        <td class="product-thumbnail">
+                                            <a href="#"><img width="145" height="145" alt="poster_1_up" class="shop_thumbnail" src="img/product-thumb-2.jpg"></a>
+                                        </td>
+
+                                        <td class="product-name">
+                                            <a href="#">Cellphone Apple 6S</a> 
+                                        </td>
+
+                                        <td class="product-price">
+                                            <span class="amount">$700,00</span> 
+                                        </td>
+
+                                        <td class="product-shipping">
+                                            <span class="amount">$199,00</span> 
+                                        </td>
+
+                                        <td class="product-quantity">
+                                            <div class="quantity buttons_added">
+                                                <input type="number" size="4" class="input-text qty text" title="Qty" value="1" min="0" step="1">
+                                            </div>
+                                        </td>
+
+                                        <td class="product-subtotal">
+                                            <span class="amount">$899,00</span> 
+                                        </td>
+                                        <td class="add-cart">
+                                            <div class="product_option">
+                                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="#">Add to cart</a>
+                                            </div> 
+                                        </td>
+                                    </tr>
+                                    <tr class="cart_item">
+                                        <td class="product-thumbnail">
+                                            <a href="#"><img width="145" height="145" alt="poster_1_up" class="shop_thumbnail" src="img/product-thumb-2.jpg"></a>
+                                        </td>
+
+                                        <td class="product-name">
+                                            <a href="#">Cellphone Apple 6S</a> 
+                                        </td>
+
+                                        <td class="product-price">
+                                            <span class="amount">$700,00</span> 
+                                        </td>
+
+                                        <td class="product-shipping">
+                                            <span class="amount">$199,00</span> 
+                                        </td>
+
+                                        <td class="product-quantity">
+                                            <div class="quantity buttons_added">
+                                                <input type="number" size="4" class="input-text qty text" title="Qty" value="1" min="0" step="1">
+                                            </div>
+                                        </td>
+
+                                        <td class="product-subtotal">
+                                            <span class="amount">$899,00</span> 
+                                        </td>
+                                        <td class="add-cart">
+                                            <div class="product_option">
+                                                <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="#">Add to cart</a>
+                                            </div> 
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="product-pagination text-center">
+                            <nav>
+                              <ul class="pagination">
+                                <li>
+                                  <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                  </a>
+                                </li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li>
+                                  <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </nav>                        
+                        </div>
+                    </div>
+                </div>
             </div>
-
-
-
-
+        </div>
         <div class="footer-top-area">
             <div class="zigzag-bottom"></div>
             <div class="container">
