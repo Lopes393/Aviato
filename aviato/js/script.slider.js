@@ -1,6 +1,6 @@
 (function($){
 
-    // Slidder home 4
+    // Slidder home 5
     if($('#bxslider-home4').length >0){
         var slider = $('#bxslider-home4').bxSlider({
             nextText:'<i class="fa fa-angle-right"></i>',

@@ -248,6 +248,10 @@ body { font-family:Arial, Helvetica, sans-serif; }
 .block-slider .bx-pager-item a.active{
 	background: #1bd172;
 }
+#bxslider-home4 li img{
+    width: 1000px;
+    height: 365px;
+}
 .block-slider .caption-group{
 	position: absolute;
     top: 26%;
@@ -525,8 +529,9 @@ width: 10px;
     font-size: 20px;
     margin: 10px 0;
 }
-.product-upper{
-    border: none;
+.product-upper > img{
+    width: 150px;
+    height: 150px;
 }
 .single_product:hover{
     -webkit-transform: scale(1.1);
@@ -649,13 +654,16 @@ td.product-quantity div.quantity {
 td.actions div.coupon {
     float: left;
 }
+.free{
+    color: #1bd172;
+}
 .interessed-in > h2{
     text-align: center;
     color: #5a88ca;
 }
 
 /* Style Page Contact */
-h2{
+.email h2{
     color: #5a88ca;
 }
 #message{
@@ -663,6 +671,9 @@ h2{
 }
 .mensagem{
     margin-top: 2%;
+}
+.mensagem h2{
+    color: #5a88ca;
 }
 .mensagem form{
     margin-bottom: 2%;
@@ -673,6 +684,9 @@ h2{
 .numero{
     margin-top: 2%;
 }
+.numero h2{
+    color: #5a88ca;
+}
 .numero ul{
     list-style: none;
 }
@@ -682,8 +696,17 @@ h2{
 
 /*Style Page Our Company*/
 .companyname{
-    margin-top: 3%;
+    margin-top: 1.5%;
 }
-.description p{
-    color: #5a88ca;
+.description{
+    margin-bottom: 5%;
+}
+
+/* Style Page Construction*/
+.construct-img-area{
+    margin-top: 1%;
+    text-align: center;
+}
+.employees{
+    margin-left: 30%;
 }
