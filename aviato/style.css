@@ -264,7 +264,7 @@ body { font-family:Arial, Helvetica, sans-serif; }
 	margin: 0;
 	margin-top: 5px;
 }
-.block-slider .caption-group .button-radius{
+.block-slider .caption-group{
 	margin-top: 27px;
 }
 .block-slider .caption-group .primary{
@@ -272,81 +272,6 @@ body { font-family:Arial, Helvetica, sans-serif; }
 }
 .block-slider .caption-group .caption{
 
-}
-
-/*Configuração dos botões*/
-.button-radius{
-    position: relative;
-    border: 1px solid #eaeaea;
-    padding: 1px;
-    min-height: 34px;
-    background: #fff;
-    display: inline-block;
-    width: auto;
-    line-height: 30px;
-    padding-left: 40px;
-    padding-right: 20px;
-    margin: 0;
-    color: #666666;
-    -webkit-border-radius: 17px;
-    -moz-border-radius: 17px;
-    border-radius: 17px;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-    margin-top: 10px;
-    font-size: 14px;
-}
-.button-radius .icon{
-    -webkit-transition: all 1s ease-out;
-    -moz-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
-    -ms-transition: all 1s ease-out;
-    transition: all 1s ease-out;
-    position: absolute;
-    left: 2%;
-    top: 2px;
-    overflow: hidden;
-}
-
-.button-radius .icon:before{
-    font-family: 'FontAwesome';
-    content: "\f105";
-    font-size: 14px;
-    color: #fff;
-    width: 28px;
-    height: 28px;
-    background-color: #5a88ca;
-    border-radius: 90%;
-    text-align: center;
-    line-height: 26px;
-    float: left;
-    -webkit-transition: all 1s ease-out;
-    -moz-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
-    -ms-transition: all 1s ease-out;
-    transition: all 1s ease-out;
-}
-
-.button-radius.white{
-    border-color: #fff;
-    color: #fff;
-    background: transparent;
-}
-.button-radius.white .icon:before{
-    background: #fff;
-    color: #333;
-}
-
-.button-radius:hover .icon{
-    left: 100%;
-    margin-left: -30px;
-}
-.button-radius:hover{
-    padding-left: 20px;
-    padding-right: 40px;
 }
 /*Style da area promo*/
 .promo-area {
